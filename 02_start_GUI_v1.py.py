@@ -18,15 +18,15 @@ class Start:
         # Initial Instruction (row 1)
         self.mystery_instructions = Label(self.start_frame, font="Arial 10 italic",
                                           text="Please enter a dollar amount "
-                                              "(between $5 and $50) in the box "
-                                              "below. Then choose the stakes. "
-                                              "The higher the stakes, "
-                                              "the more you can win!",
+                                               "(between $5 and $50) in the box "
+                                               "below. Then choose the stakes. "
+                                               "The higher the stakes, "
+                                               "the more you can win!",
                                           wrap=275, justify=LEFT, padx=10, pady=10)
         self.mystery_instructions.grid(row=1)
 
         # Entry box... (row 2)
-        self.start_amount_entry = Entry(*self.start_frame, font="Arial 16 bold")
+        self.start_amount_entry = Entry(self.start_frame, font="Arial 16 bold")
         self.start_amount_entry.grid(row=2)
 
         # button frame (row 3)
@@ -38,7 +38,7 @@ class Start:
         # Orange low stakes button...
         self.lowstakes_button = Button(self.stakes_frame, text="Low ($5)",
                                        command=lambda: self.to_game(1),
-                                       font=button_font, bg="#FFFF33")
+                                       font=button_font, bg="#FF9933")
         self.lowstakes_button.grid(row=0, column=0, pady=10)
 
         # Yellow medium stakes button...
@@ -73,5 +73,5 @@ class Game:
 if __name__ == "__main__":
     root = Tk()
     root.title("Mystery Box Game")
-    something = ()
+    Start(root)
     root.mainloop()

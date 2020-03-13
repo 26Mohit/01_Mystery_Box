@@ -16,7 +16,7 @@ class Start:
         self.mystery_box_label.grid(row=1)
 
         # Entry box... (row 1)
-        self.start_amount_entry = Entry(*self.start_frame, font="Arial 16 bold")
+        self.start_amount_entry = Entry(self.start_frame, font="Arial 16 bold")
         self.start_amount_entry.grid(row=2)
 
         # Play Button (row 2)
@@ -84,5 +84,5 @@ if __name__ == '__main__':
 if __name__ == "__main__":
     root = Tk()
     root.title("Mystery Box Game")
-    something = ()
+    Start(root)
     root.mainloop()
