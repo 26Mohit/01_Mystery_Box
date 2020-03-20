@@ -48,51 +48,42 @@ class Game:
         self.play_label.grid(row=0)
 
         # Heading row
-        self.heading_label = Label(self.game_frame, text="Press <enter> or click the 'Open Boxes' button to "
-                                                         "reveal the contents of the mystery boxes.",
-                                   font="Arial 12", padx=10, wrap=250,
+        self.heading_label = Label(self.game_frame, text=" Press <enter> or click the 'Open Boxes' button to "
+                                                         " reveal the contents of the mystery boxes.",
+                                   font="Arial 10", padx=10, wrap=300,
                                    pady=10)
         self.heading_label.grid(row=1)
 
-        # Balance Label
-        self.balance_label = Label(self.game_frame, text="")
-        self.balance_label.grid(row=1)
+        # Mystery Boxes
+        self.mystery_boxes_frame = Frame(self.game_frame)
+        self.mystery_boxes_frame.grid(row=2)
 
-        self.play_button = Button(self.game_frame, text="?",
-                                  padx=10, pady=10, command=self.reveal_boxes)
-        self.play_button.grid(row=3)
+        self.box_one = Label(self.mystery_boxes_frame, text="?", bg="#b9ea96",
+                             font="Arial 16 bold", width=5, padx=20, pady=20)
+        self.box_one.grid(row=0, column=1, padx=10)
 
-        # Balance Label
-        self.balance_frame = Frame(self.game_frame)
-        self.balance_frame.grid(row=1, column=2)
+        self.box_two = Label(self.mystery_boxes_frame, text="?", bg="#b9ea96",
+                             font="Arial 16 bold", width=5, padx=20, pady=20)
+        self.box_two.grid(row=0, column=2, padx=10)
 
-        self.balance_label = Label(self.game_frame, text="")
-        self.balance_label.grid(row=2)
-
-        self.play_button = Button(self.game_frame, text="?",
-                                  padx=10, pady=10, command=self.reveal_boxes)
-        self.play_button.grid(row=3)
-
-        # Balance Label
-        self.balance_frame = Frame(self.game_frame)
-        self.balance_frame.grid(row=1, column=3)
-
-        self.balance_label = Label(self.game_frame, text="")
-        self.balance_label.grid(row=2)
-
-        self.play_button = Button(self.game_frame, text="?",
-                                  padx=10, pady=10, command=self.reveal_boxes)
-        self.play_button.grid(row=3)
+        self.box_three = Label(self.mystery_boxes_frame, text="?", bg="#b9ea96",
+                               font="Arial 16 bold", width=5, padx=20, pady=20)
+        self.box_three.grid(row=0, column=3, padx=10)
 
         # Open Boxes
         self.open_boxes_frame = Frame(self.game_frame)
-        self.open_boxes_frame.grid(row=2)
+        self.open_boxes_frame.grid(row=3)
 
         self.play_button = Button(self.game_frame, text="Open Boxes",
-                                  font="Arial 18 bold",
-                                  bg="#FFFF33",
-                                  padx=20, pady=10, command=self.reveal_boxes)
-        self.play_button.grid(row=3)
+                                  font="Arial 18 bold", bg="#FFFF33", width=20,
+                                  padx=10, pady=10, command=self.reveal_boxes)
+        self.play_button.grid(row=3, pady=10)
+
+        # Balance Label (row 4)
+
+        self.balance_label = Label(self.game_frame, text="Welcome, your starting balance is $50 ", font="Arial 12 bold",
+                                   fg="green", wrap=300, justify=LEFT)
+        self.balance_label.grid(row=4, pady=10)
 
     def reveal_boxes(self):
 
