@@ -59,15 +59,15 @@ class Game:
         self.mystery_boxes_frame.grid(row=2)
 
         self.box_one = Label(self.mystery_boxes_frame, text="?", bg="#b9ea96",
-                             font="Arial 16 bold", width=5, padx=20, pady=20)
+                             font="Arial 16 bold", width=3, padx=20, pady=20)
         self.box_one.grid(row=0, column=1, padx=10)
 
         self.box_two = Label(self.mystery_boxes_frame, text="?", bg="#b9ea96",
-                             font="Arial 16 bold", width=5, padx=20, pady=20)
+                             font="Arial 16 bold", width=3, padx=20, pady=20)
         self.box_two.grid(row=0, column=2, padx=10)
 
         self.box_three = Label(self.mystery_boxes_frame, text="?", bg="#b9ea96",
-                               font="Arial 16 bold", width=5, padx=20, pady=20)
+                               font="Arial 16 bold", width=3, padx=20, pady=20)
         self.box_three.grid(row=0, column=3, padx=10)
 
         # Open Boxes
@@ -75,7 +75,7 @@ class Game:
         self.open_boxes_frame.grid(row=3)
 
         self.play_button = Button(self.game_frame, text="Open Boxes",
-                                  font="Arial 18 bold", bg="#FFFF33", width=20,
+                                  font="Arial 18 bold", bg="#FFFF33", width=15,
                                   padx=10, pady=10, command=self.reveal_boxes)
         self.play_button.grid(row=3, pady=10)
 
@@ -84,6 +84,19 @@ class Game:
         self.balance_label = Label(self.game_frame, text="Welcome, your starting balance is $50 ", font="Arial 12 bold",
                                    fg="green", wrap=300, justify=LEFT)
         self.balance_label.grid(row=4, pady=10)
+
+        # Help/Rules and Game Stats button (row 5)
+        self.help_export_frame = Frame(self.game_frame)
+        self.help_export_frame.grid(row=5)
+
+        self.help_button = Button(self.help_export_frame, text="Help / Rules",
+                                  font="Arial 15 bold", bg="#808080", fg="white")
+        self.help_button.grid(row=5, column=0, padx=2, pady=10)
+
+        self.stats_button = Button(self.help_export_frame, text="Game Stats...",
+                                   font="Arial 15 bold",
+                                   bg="#003366", fg="white")
+        self.stats_button.grid(row=5, column=1, padx=2, pady=10)
 
     def reveal_boxes(self):
 
