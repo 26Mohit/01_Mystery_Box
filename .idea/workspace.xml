@@ -34,7 +34,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/New folder" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.04_Prize_generation_v5">
+  <component name="RunManager" selected="Python.05_Game_Payable_v1">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,7 +54,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="02_start_GUI_v3.py" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03_game_GUI_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="01_Mystery_Box" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,28 +66,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_start_GUI_v3.py.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="04_Prize_generation_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="01_Mystery_Box" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_Prize_generation_v2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_game_GUI_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,6 +100,9 @@
       <module name="01_Mystery_Box" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -156,13 +138,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="05_Game_Payable_v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="01_Mystery_Box" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_Game_Payable_v1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.05_Game_Payable_v1" />
+        <item itemvalue="Python.04_Prize_generation_v3" />
+        <item itemvalue="Python.03_game_GUI_v2" />
         <item itemvalue="Python.04_Prize_generation_v5" />
         <item itemvalue="Python.04_Prize_generation_v4" />
-        <item itemvalue="Python.04_Prize_generation_v4" />
-        <item itemvalue="Python.04_Prize_generation_v3" />
-        <item itemvalue="Python.04_Prize_generation_v2" />
       </list>
     </recent_temporary>
   </component>
@@ -196,22 +199,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="579" y="188" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1585108038353" />
-    <state width="776" height="147" key="GridCell.Tab.0.bottom" timestamp="1585108339212">
+    <state width="878" height="147" key="GridCell.Tab.0.bottom" timestamp="1585274577793">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="776" height="147" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585108339212" />
-    <state width="776" height="147" key="GridCell.Tab.0.center" timestamp="1585108339212">
+    <state width="878" height="147" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585274577793" />
+    <state width="878" height="147" key="GridCell.Tab.0.center" timestamp="1585274577793">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="776" height="147" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585108339212" />
-    <state width="776" height="147" key="GridCell.Tab.0.left" timestamp="1585108339212">
+    <state width="878" height="147" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585274577793" />
+    <state width="878" height="147" key="GridCell.Tab.0.left" timestamp="1585274577793">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="776" height="147" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585108339212" />
-    <state width="776" height="147" key="GridCell.Tab.0.right" timestamp="1585108339212">
+    <state width="878" height="147" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585274577793" />
+    <state width="878" height="147" key="GridCell.Tab.0.right" timestamp="1585274577793">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="776" height="147" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585108339212" />
+    <state width="878" height="147" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585274577793" />
     <state x="204" y="75" key="SettingsEditor" timestamp="1585108088275">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
