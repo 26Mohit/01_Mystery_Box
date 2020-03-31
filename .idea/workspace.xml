@@ -34,7 +34,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/New folder" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.05_Game_Payable_v1">
+  <component name="RunManager" selected="Python.AA_compiled_game_v2">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,27 +96,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04_Prize_generation_v4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="01_Mystery_Box" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_Prize_generation_v4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="04_Prize_generation_v5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="01_Mystery_Box" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,13 +138,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="AA_compiled_game_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="01_Mystery_Box" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AA_compiled_game_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AA_compiled_game_v2" />
         <item itemvalue="Python.05_Game_Payable_v1" />
-        <item itemvalue="Python.04_Prize_generation_v3" />
         <item itemvalue="Python.03_game_GUI_v2" />
+        <item itemvalue="Python.04_Prize_generation_v3" />
         <item itemvalue="Python.04_Prize_generation_v5" />
-        <item itemvalue="Python.04_Prize_generation_v4" />
       </list>
     </recent_temporary>
   </component>
@@ -199,29 +199,29 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="579" y="188" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1585108038353" />
-    <state width="878" height="147" key="GridCell.Tab.0.bottom" timestamp="1585274577793">
+    <state width="956" height="148" key="GridCell.Tab.0.bottom" timestamp="1585615948180">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="878" height="147" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585274577793" />
-    <state width="878" height="147" key="GridCell.Tab.0.center" timestamp="1585274577793">
+    <state width="956" height="148" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585615948180" />
+    <state width="956" height="148" key="GridCell.Tab.0.center" timestamp="1585615948180">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="878" height="147" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585274577793" />
-    <state width="878" height="147" key="GridCell.Tab.0.left" timestamp="1585274577793">
+    <state width="956" height="148" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585615948180" />
+    <state width="956" height="148" key="GridCell.Tab.0.left" timestamp="1585615948180">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="878" height="147" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585274577793" />
-    <state width="878" height="147" key="GridCell.Tab.0.right" timestamp="1585274577793">
+    <state width="956" height="148" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585615948180" />
+    <state width="956" height="148" key="GridCell.Tab.0.right" timestamp="1585615948180">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="878" height="147" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585274577793" />
+    <state width="956" height="148" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585615948180" />
     <state x="204" y="75" key="SettingsEditor" timestamp="1585108088275">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="204" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1585108088275" />
-    <state x="852" y="199" key="run.anything.popup" timestamp="1585106244106">
+    <state x="852" y="199" key="run.anything.popup" timestamp="1585614720079">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="852" y="199" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1585106244106" />
+    <state x="852" y="199" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1585614720079" />
   </component>
 </project>
