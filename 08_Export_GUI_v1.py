@@ -304,7 +304,7 @@ class Export:
             f.write("\nRound Details\n\n")
 
             # add new line at end of each item
-            for item in game_history:
+            for item in game_stats:
                 f.write(item + "\n")
 
             # close file
