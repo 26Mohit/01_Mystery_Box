@@ -168,23 +168,19 @@ class GameStats:
                                      command=partial(self.close_stats, partner))
         self.dismiss_button.grid(row=5, column=1, pady=10)
 
-        # Export / Dismiss Buttons frame (row 3)
-        self.export_dismiss_frame = Frame(self.export_dismiss_frame)
-        self.export_dismiss_frame.grid(row=3, pady=10)
-
         # Export Button
-        self.export_button = Button(self.export_dismiss_frame, text="Export",
-                                    font="Arial 12 bold")
-        self.export_button.grid(row=0, column=0)
-
+        self.export_button = Button(self.details_frame, text="Export...",
+                                    font="Arial 12 bold", fg="white", bg="#003366", width="10",
+                                    command=lambda: Export(self, partner, game_history))
+        self.export_button.grid(row=5, column=0)
 
     def close_stats(self, partner):
         # Put stats back to normal...
         partner.stats_button.config(state=NORMAL)
         self.stats_box.destroy()
 
-    def export(self, partner, game_history, all_game_stats):
-        Export(self, partner, game_history, all_game_stats)
+    def export(self, partner, game_history):
+        Export(self, partner, game_history)
 
 
 class Export:

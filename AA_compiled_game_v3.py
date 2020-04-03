@@ -368,7 +368,7 @@ class Help:
         self.help_text = Label(self.help_frame, text="Choose an amount to play with and then choose the stakes. "
                                                      "Higher stakes cost more per round but you can win more as " 
                                                      "well.\n\n"
-                                                     "When you enter the play area, you will see three mustery "
+                                                     "When you enter the play area, you will see three mystery "
                                                      "boxes. To reveal the contents of the oxes, click the "
                                                      "'Open Boxes' button. if don't have enough money to play, "
                                                      "the button will turn red and you will need to quite the "
@@ -378,7 +378,7 @@ class Help:
                                                      "Low: Lead ($0)  | Copper ($1) | Silver ($2) | Gold ($10)\n"
                                                      "Medium: Lead ($0)  | Copper ($2) | Silver ($4) | Gold ($25)\n"
                                                      "High: Lead ($0)  | Copper ($5) | Silver ($10) | Gold ($50)\n\n"
-                                                     "If each box conains gold, you can earn $30 (low stakes). If "
+                                                     "If each box contains gold, you can earn $30 (low stakes). If "
                                                      "they contained copper, silver and gold, you would receive "
                                                      "$13 ($1 + $2 + $10) and so on.",
                                width=60, wrap=400)
