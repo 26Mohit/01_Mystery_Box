@@ -260,7 +260,7 @@ class Game:
         # Lead not in the list as that is always 0
         copper = ["copper_low.gif", "copper_med.gif", "copper_high.gif"]
         silver = ["silver_low.gif", "silver_med.gif", "silver_high.gif"]
-        gold = ["gold.low.gif", "gold_med.gif", "gold_high.gif"]
+        gold = ["gold_low.gif", "gold_med.gif", "gold_high.gif"]
 
         for item in range(0, 3):
             prize_num = random.randint(1, 100)
@@ -403,6 +403,12 @@ class Help:
 class GameStats:
     def __init__(self, partner, game_history, game_stats):
 
+        # GK Set up all game stats with starting and current balance
+        all_game_stats =[
+            "Starting Balance: ${}".format(game_stats[0]),
+            "Current Balance: ${}".format(game_stats[1])
+        ]
+
         # disable help button
         partner.stats_button.config(state=DISABLED)
 
@@ -421,7 +427,7 @@ class GameStats:
 
         # Set up help heading (row 0)
         self.stats_heading = Label(self.stats_frame,text="Game Statistics",
-                                 font="arial 19 bold")
+                                   font="arial 19 bold")
         self.stats_heading.grid(row=0)
 
         # To Export <instruction>  (row 1)
@@ -472,6 +478,10 @@ class GameStats:
             amount = game_stats[0] - game_stats[1]
             win_loss_fg = "#660000"
 
+        # GK: Add amount won/lost to all_game_stats list for export
+        all_game_stats.append("{}  {}".format(win_loss, amount))
+        all_game_stats.append("Rounds Played: {}".format(len(game_history)))
+
         # Amount won / lost (row 2.3)
         self.wind_loss_label = Label(self.details_frame,
                                      text=win_loss, font=heading,
@@ -504,7 +514,7 @@ class GameStats:
         # Export Button
         self.export_button = Button(self.details_frame, text="Export...",
                                     font="Arial 12 bold", fg="white", bg="#003366", width="10",
-                                    command=lambda: Export(self, partner, game_history))
+                                    command=lambda: self.export(game_history, all_game_stats))
         self.export_button.grid(row=5, column=0)
 
     def close_stats(self, partner):
@@ -512,8 +522,8 @@ class GameStats:
         partner.stats_button.config(state=NORMAL)
         self.stats_box.destroy()
 
-    def export(self, partner, game_history):
-        Export(self, partner, game_history)
+    def export(self, game_history, all_game_stats):
+        Export(self, game_history, all_game_stats)
 
 
 class Export:
@@ -626,14 +636,14 @@ class Export:
             f.write("Game Statistics\n\n")
 
             # Game Stats
-            for round in game_stats:
-                f.write(round + "\n")
+            for rounds in game_stats:
+                f.write(rounds + "\n")
 
             # Heading for Rounds
             f.write("\nRound Details\n\n")
 
             # add new line at end of each item
-            for item in game_stats:
+            for item in game_history:
                 f.write(item + "\n")
 
             # close file

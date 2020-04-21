@@ -1,0 +1,13 @@
+Game Statistics
+
+Starting Balance: $50
+Current Balance: $11
+Amount Lost:  39
+Rounds Played: 7
+
+Round Details
+
+Starting Balance: $50
+Current Balance: $11
+Amount Lost:  39
+Rounds Played: 7
